@@ -1,0 +1,20 @@
+{
+    
+    "LDAP": {
+        "HOST": "",
+        "PORT": 636,
+        "USERNAME": "",
+        "PASSWORD": "",
+        "ROOT_SERVER": "",
+        "SSL": true
+    },
+    
+    "DATABASE": {
+        "HOST": "",
+        "USERNAME": "",
+        "PASSWORD": "",
+        "DB": ""
+    }
+}
+
+
