@@ -21,10 +21,10 @@ if __name__ == "__main__":
 
     db = read_json("./config.json")
     database = mysql.connector.connect(
-      host=db["DATABASE"]["HOST"], #"192.168.205.148",
-      user=db["DATABASE"]["USERNAME"], #"lbeh",
-      password=db["DATABASE"]["PASSWORD"], #"Access2Tree",
-      database=db["DATABASE"]["DB"], #"treerole"
+      host=db["DATABASE"]["HOST"], 
+      user=db["DATABASE"]["USERNAME"], 
+      password=db["DATABASE"]["PASSWORD"], 
+      database=db["DATABASE"]["DB"], 
     )
 
     print(database)
